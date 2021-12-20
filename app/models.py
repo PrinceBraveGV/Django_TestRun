@@ -76,7 +76,7 @@ class Employee(models.Model):
     address = models.TextField(verbose_name = 'Home address')
     phone = models.CharField(max_length = 30, verbose_name = 'Phone number')
     work_email = models.CharField(max_length = 254, verbose_name = 'Work e-mail')
-    joindate = models.DateField(verbose_name = 'Join date                                                                                                                                                                                        ')
+    joindate = models.DateField(verbose_name = 'Join date ')                                                                                                                                                                                       ')
     resigndate = models.DateField(verbose_name = 'Resign date')
     identity_no = models.CharField(max_length = 100, verbose_name = 'ID card number')
     tax_no = models.CharField(max_length = 254, verbose_name = 'Income tax number')
